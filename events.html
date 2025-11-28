@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Events & Notices - Sharda Minority Convent</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+
+<header class="site-header">
+  <div class="navbar">
+    <div class="brand">
+      <div class="brand-logo"><span>SM</span></div>
+      <div class="brand-text">
+        <strong>Sharda Minority Convent</strong>
+        <small>Knowledge • Discipline • Values</small>
+      </div>
+    </div>
+    <div class="nav-toggle" id="navToggle"><span></span><span></span><span></span></div>
+    <nav class="nav-links" id="navLinks">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="principal.html">Principal</a>
+      <a href="academics.html">Academics</a>
+      <a href="admissions.html">Admissions</a>
+      <a href="facilities.html">Facilities</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="staff.html">Staff</a>
+      <a href="events.html" class="current">Events</a>
+      <a href="alumni.html">Alumni</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<!-- EVENT MODAL -->
+<div id="eventModal" class="modal">
+  <div class="modal-content">
+    <span class="modal-close" onclick="closeModal()">&times;</span>
+    <h2 id="modal-title"></h2>
+    <p id="modal-description"></p>
+  </div>
+</div>
+
+<main>
+  <section class="section">
+    <div class="section-header">
+      <h2>Events & Notices</h2>
+      <p>Recent activities and important announcements from our school.</p>
+    </div>
+
+    <div class="events-layout">
+      <div>
+        <div class="event-card" onclick="openEventModal('Independence Day Celebration', 'Flag hoisting, parade, patriotic songs and cultural programs by students.')">
+          <div class="event-date">
+            <span>15</span>Aug
+          </div>
+          <div>
+            <h3>Independence Day Celebration</h3>
+            <p>Students participate in cultural programs and patriotic activities.</p>
+          </div>
+        </div>
+
+        <div class="event-card" onclick="openEventModal('Teacher’s Day', 'Special assembly, speeches and role-reversal activities to thank teachers.')">
+          <div class="event-date">
+            <span>05</span>Sep
+          </div>
+          <div>
+            <h3>Teacher’s Day Program</h3>
+            <p>Special assembly and performances to honour all teachers.</p>
+          </div>
+        </div>
+
+        <div class="event-card" onclick="openEventModal('Annual Sports Meet', 'Track events, team games, and prize distribution to promote sportsmanship.')">
+          <div class="event-date">
+            <span>10</span>Dec
+          </div>
+          <div>
+            <h3>Annual Sports Meet</h3>
+            <p>Sports events for all classes and prize distribution ceremony.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="notice-box">
+        <h3>Notices</h3>
+        <div class="notice">Admissions open for the new academic session. Limited seats available.</div>
+        <div class="notice">Parent–Teacher Meeting scheduled on [Date] at [Time].</div>
+        <div class="notice">Students must wear proper uniform and bring school ID daily.</div>
+        <div class="notice">Submit any pending documents at the school office.</div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  © 2025 Sharda Minority Convent. Events & Notices.
+</footer>
+</body>
+</html>

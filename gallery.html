@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Gallery - Sharda Minority Convent</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+
+<header class="site-header">
+  <div class="navbar">
+    <div class="brand">
+      <div class="brand-logo"><span>SM</span></div>
+      <div class="brand-text">
+        <strong>Sharda Minority Convent</strong>
+        <small>Knowledge • Discipline • Values</small>
+      </div>
+    </div>
+    <div class="nav-toggle" id="navToggle"><span></span><span></span><span></span></div>
+    <nav class="nav-links" id="navLinks">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="principal.html">Principal</a>
+      <a href="academics.html">Academics</a>
+      <a href="admissions.html">Admissions</a>
+      <a href="facilities.html">Facilities</a>
+      <a href="gallery.html" class="current">Gallery</a>
+      <a href="staff.html">Staff</a>
+      <a href="events.html">Events</a>
+      <a href="alumni.html">Alumni</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="section">
+    <div class="section-header">
+      <h2>School Gallery</h2>
+      <p>Some glimpses of daily life, celebrations and activities at our school.</p>
+    </div>
+
+    <p class="gallery-intro">Slider preview (use your real images inside <code>assets/images/</code>).</p>
+
+    <!-- IMAGE SLIDER -->
+    <div class="slider">
+      <div class="slides">
+        <img src="assets/images/campus.jpg" alt="Campus">
+        <img src="assets/images/classroom.jpg" alt="Classroom">
+        <img src="assets/images/sports.jpg" alt="Sports">
+        <img src="assets/images/cultural.jpg" alt="Cultural Event">
+      </div>
+      <span class="prev" onclick="prevSlide()">&#10094;</span>
+      <span class="next" onclick="nextSlide()">&#10095;</span>
+    </div>
+
+    <div class="gallery-grid">
+      <div class="gallery-item">
+        <span>Morning Assembly</span>
+      </div>
+      <div class="gallery-item">
+        <span>Classroom Activities</span>
+      </div>
+      <div class="gallery-item">
+        <span>Sports & Games</span>
+      </div>
+      <div class="gallery-item">
+        <span>Independence Day Celebrations</span>
+      </div>
+      <div class="gallery-item">
+        <span>Science Projects</span>
+      </div>
+      <div class="gallery-item">
+        <span>Library & Reading</span>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  © 2025 Sharda Minority Convent. Gallery.
+</footer>
+</body>
+</html>
