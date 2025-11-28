@@ -89,7 +89,35 @@
         <p><strong>Office Timings:</strong><br>Monday – Saturday, 8:00 AM – 2:00 PM</p>
 
         <div class="map-placeholder">
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3581.076427738824!2d85.76892457465954!3d26.1616402919652!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39edbb0e29d0913b%3A0x878f00fb4a439797!2sSharda%20Minority%20Convent%20Bastawara!5e0!3m2!1sen!2sin!4v1764354072127!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+         <style>
+  .map-wrapper {
+    position: relative;
+    width: 100%;
+    max-width: 100%;
+    /* change 65% to make it taller/shorter */
+    padding-bottom: 65%;
+    overflow: hidden;
+    border-radius: 8px; /* optional */
+  }
+
+  .map-wrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+  }
+</style>
+
+<div class="map-wrapper">
+  <iframe
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3581.076427738824!2d85.76892457465954!3d26.1616402919652!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39edbb0e29d0913b%3A0x878f00fb4a439797!2sSharda%20Minority%20Convent%20Bastawara!5e0!3m2!1sen!2sin!4v1764354072127!5m2!1sen!2sin"
+    allowfullscreen=""
+    loading="lazy"
+    referrerpolicy="no-referrer-when-downgrade">
+  </iframe>
+</div>
         </div>
       </div>
     </div>
@@ -101,4 +129,5 @@
 </footer>
 </body>
 </html>
+
 
